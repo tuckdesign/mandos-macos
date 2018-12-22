@@ -1,0 +1,13 @@
+--- /usr/share/initramfs-tools/hooks/mandos.original
++++ /usr/share/initramfs-tools/hooks/mandos
+ 
+ # These are directories inside the initrd
+@@ -80,10 +81,10 @@
+ 	--mode=u=rwx "${DESTDIR}${PLUGINDIR}" \
+ 	"${DESTDIR}${PLUGINHELPERDIR}"
+
+ # Copy the Mandos plugin runner
+ copy_exec "$libdir"/mandos/plugin-runner "${MANDOSDIR}"
++copy_exec /sbin/ifconfig /sbin
++copy_exec /sbin/dhclient /sbin
+ 

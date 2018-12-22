@@ -1,0 +1,9 @@
+--- /usr/share/initramfs-tools/scripts/init-premount/mandos.original
++++ /usr/share/initramfs-tools/scripts/init-premount/mandos
+
+@@ -102,80 +105,53 @@
+     fi
+ fi
+ 
++/sbin/ifconfig enp0s3 0.0.0.0 && dhclient
++/sbin/ifconfig
