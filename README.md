@@ -1,5 +1,5 @@
 # mandos-macos
-This repository gives a port of Mandos Server to MacOs. Base version of Mandos Server used for this was 1.7.20.
+This repository gives a port of Mandos Server to MacOs. **It does not require DBus and Avahi!** Base version of Mandos Server used for this was 1.7.20.
 
 ## Requirements
 
