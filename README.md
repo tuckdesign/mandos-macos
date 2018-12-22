@@ -3,7 +3,7 @@ This repository gives a port of Mandos Server to MacOs. Base version of Mandos S
 
 ## Requirements
 
-You need to instal gpg, PyGobject with homebrwe and python-zeroconf (v0.19.1) that you need to install manually, because latest version dropped support for Python 2.
+You need to instal gpg, PyGobject with homebrew and python-zeroconf (v0.19.1) that you need to install manually, because latest version dropped support for Python 2.
 
 ## Installation
 
